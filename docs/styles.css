@@ -1,0 +1,179 @@
+body, h1, h2, p, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* tělo stránky */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/citrony.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.home-screen {
+    height: 100vh; /* 100% viewport výška */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff; /* Text color */
+    background-image: url('images/citron.png');
+    background-size: 110vh;
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat;
+}
+
+.centered-text {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+}
+
+.centered-text h1 {
+    font-size: 4em;
+}
+
+.centered-text p {
+    font-size: 2.2em;
+}
+
+
+.main {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Sekce Úvod */
+#introduction2 {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#introduction2 h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#introduction2 p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Sekce Důvody */
+#reasons {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#reasons h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#reasons ul {
+    list-style-type: none;
+}
+
+#reasons li {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#reasons li strong {
+    font-weight: bold;
+}
+
+/* Sekce Motto */
+#motto {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#motto h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#motto p {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Sekce Úvod */
+#introduction {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#introduction h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Sekce Tabulka Výsledků */
+#results {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#results h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Sekce Finální Verdikt */
+#verdict {
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+}
+
+#verdict h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#verdict p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 15px;
+}
