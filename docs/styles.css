@@ -7,6 +7,7 @@ body, h1, h2, p, table {
 body {
     font-family: Arial, sans-serif;
     background-image: url('images/citrony.jpg');
+    background-color: #fff20d;
     background-attachment: fixed;
     background-size: cover;
 }
